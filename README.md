@@ -1,18 +1,24 @@
-# React + Vite
+- Components
+  - Columns - to show the types of task status we have
+  - List - to show Tickets
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- Initial Dummy data - Task.js
 
-Currently, two official plugins are available:
+- show the task on the bases of status and sort in order value to show priority.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- drag and drop the task and update the order. Drag and drop in same column and drag to change status as well.
 
-## React Compiler
+- API GET Request
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
-
-Note: This will impact Vite dev & build performances.
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**GET/ Tasks**
+[
+{
+id: 1,
+title: ...,
+desc: ...
+status: start, inprogress, done,
+assigned: id
+createdBy: id ,
+order: 1
+}
+]
