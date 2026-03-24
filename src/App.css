@@ -1,0 +1,23 @@
+.app-container {
+    height: 100vh;
+}
+
+
+.tasks-columns {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+
+.column {
+    width: 100%;   
+    border-right: 1px solid rgb(226, 220, 220);
+    height: 100vh;
+}
+
+.column-header {
+    font-weight: 600;
+    font-size: 1.25rem;
+    text-transform: capitalize;
+}
